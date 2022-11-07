@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* The login Modal (background) */
+.login_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* login Modal Content */
+.login_modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 80%;
+    color: #386fab;
+    border-radius: 20px;
+}
+
+.login_modal-content .container {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.login_modal-content .list-title {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 18px;
+    color: #888;
+}
+#payment_cancel button {
+    font-size: 15px;
+}
+#save {
+    font-size: 15px;
+}
+.login_modal-content ul {
+    list-style: none;
+    line-height: 4;
+}
+
+.login_modal-content ul#login_payment {
+    line-height: 3;
+}
+
+.login_modal-content hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #386fab;
+    border-style: solid;
+    background-color: #386fab;
+}
+
+.login_modal-content li#login_btn {
+    text-align: center;
+}
+
+.login_modal-content li#login_btn button {
+    width: 90%;
+    background-color: #386fab;
+    color: #ffff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login_modal-content label#user_info {
+    padding-right: 15px;
+}
+
+.login_modal-content input {
+    height: 38px;
+    width: 82%;
+}
+
+.login_modal-content input#credit_card {
+    width: 100%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #386fab;
+    cursor: pointer;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 1324px) {
+
+    .login_modal-content ul {
+        line-height: 5;
+        font-size: 12px;
+    }
+
+    .login_modal-content label#user_info {
+        padding-right: 11px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .login_modal-content ul {
+        line-height: 5;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .login_modal-content {
+        width: 41%;
+    }
+
+    .login_modal-content ul {
+        line-height: 5;
+        font-size: 14px;
+    }
+
+    .login_modal-content label#user_info {
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 1028px){
+    .login_modal-content ul {
+        line-height: 5;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .login_modal-content ul {
+        line-height: 5;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    
+    .login_modal-content {
+        width: 50%;
+    }
+
+    .login_modal-content ul {
+        line-height: 5;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    
+    .login_modal-content ul {
+        line-height: 5;
+    }
+}
+
+@media screen and (max-width: 879px) {
+    
+    .login_modal-content {
+        width: 50%;
+    }
+
+    .login_modal-content ul {
+        font-size: 12px;
+        line-height: 5;
+    }
+
+    .login_modal-content label#user_info {
+        padding-right: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .login_modal-content {
+        height: 80%;
+    }
+
+    .login_modal-content ul {
+        font-size: 12px;
+        line-height: 5;
+    }
+    
+    .login_modal-content label#user_info {
+        padding-right: 11px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    
+    .login_modal-content ul {
+    font-size: 11px;
+    line-height: 5;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    .login_modal-content ul {
+        font-size: 10px;
+        line-height: 5;
+    }
+}
+
+@media screen and (max-width: 691px) {
+    
+    .login_modal-content {
+        width: 50%;
+    }
+
+    .login_modal-content ul {
+        line-height: 3;
+    }
+
+    .login_modal-content input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .login_modal-content {
+        width: 80%;
+    }
+
+    .login_modal-content ul {
+        font-size: 11px;
+    }
+}
